@@ -1,4 +1,6 @@
 # 1주차 과제: JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가. #1
+https://github.com/whiteship/live-study/issues/1
+<br>
 <h3>목표</h3>
 <hr>
 <p>자바 소스 파일(.java)을 JVM으로 실행하는 과정 이해하기.</p>
