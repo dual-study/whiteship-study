@@ -1,4 +1,6 @@
 # 2주차 과제: 자바 데이터 타입, 변수 그리고 배열 #2
+https://github.com/whiteship/live-study/issues/2
+<br>
 <h3>목표</h3>
 
 ***
