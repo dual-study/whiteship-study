@@ -47,12 +47,7 @@ class ListNodeTest {
 
         @BeforeEach
         void setUp(){
-            head = new ListNode(0);
-
-            IntStream.range(1, size).forEach(i -> {
-                ListNode node = new ListNode(i);
-                ListNode.add(head, node, i);
-            });
+            head = prepareHead(size);
         }
 
         @Nested
@@ -166,6 +161,7 @@ class ListNodeTest {
             @Test
             @DisplayName("postion에 해당하는 node를 반환한다.")
             void it_return_node(){
+                ListNode.print(head);
                 ListNode node = ListNode.find(head, positionTofind);
                 assertNotNull(node);
                 assertEquals(positionTofind, node.getValue());
